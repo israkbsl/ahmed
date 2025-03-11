@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151515;
+}
+
+.nav-list {
+    font-size: 20px;
+}
+
+nav :first-child {
+    font-size: 20px;
+}
+
+nav {
+    justify-content: space-between;
+    background-color: #242424;
+}
+
+header {
+    height: 60vh;
+    background-color: #242424;
+    justify-content: space-between;
+    position: relative;
+}
+
+header img {
+    height: 300px;
+    width: 200px;
+}
+
+.nice-img {
+    position: absolute;
+    top: -30px;
+    right: 110px;
+}
+
+main {
+    border-top: 1px solid white;
+}
+
+.Experience {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Project {
+    justify-content: space-between;
+}
+
+.Project button {
+    border: none;
+    background-color: #242424;
+    color: white;
+}
+
+.contact {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+footer {
+    background-color: #242424;
+}
+
+.contact {
+    width: 45%;
+}
+
+.massage {
+    width: 50%;
+    background-color: #242424;
+}
+
+footer nav {
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+input{
+    background-color: #242424;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+textarea{
+    background-color: #242424;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.tt button{
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
